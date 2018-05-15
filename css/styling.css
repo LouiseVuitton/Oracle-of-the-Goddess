@@ -1,0 +1,61 @@
+/* BACKGROUND */
+body {
+    background-color: #940a88;
+}
+
+/***********************/
+/* HEADER */
+/***********************/
+.jumbotron {
+	background-image: url(../oracle/rome-1265981_1920.jpg);
+	background-size: 100%;
+}
+
+h1 {
+    color: #940a44;
+    font-family: 'Dynalight', cursive;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+/***********************/
+/*CARDS*/
+/***********************/
+.mx-auto {
+	width: 50%;
+}
+
+/*BUTTONS*/
+.btn {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*
+.btn-primary {
+	background-color: #9966cc;
+	color: white;
+	border-color: #9A41F3;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+	background-color: #843FCA;
+	color: white;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-primary.btn-outline:active {
+	border-color: #9D6CCE;
+}
+*/
+
+.btn-danger {
+	background-color: #E0115F;
+}
+
+/* FOOTER */
+footer {
+    background: #940a44;
+    color: white;
+}
+

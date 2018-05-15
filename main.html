@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>Tarot Card of the Day</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dynalight" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+</head>
+
+<body id="background">
+<link rel="stylesheet" href="css/styling.css">
+
+<div class="jumbotron jumbotron-fluid">
+	<br>
+	<br>
+	<br>
+    <br>
+	<h1 class="display-2 text-center">Goddess Tarot</h1>
+</div>
+
+<div>
+	
+</div>
+<div class="mx-auto row">
+  <div class="py-3 col-sm-4">
+    <div class="card" id="purple">
+		<img class="card-img-top" src="oracle/purple-card.jpg" alt="purple-card">
+      <div class="text-center card-body">
+        <h5 class="card-title">Head</h5>
+        <p class="card-text">Shuffle the stack until you have asked your question aloud. Move on to the Heart cards.</p>
+        <button onclick="left()" id="left-button" class="btn btn-primary" role="button" data-toggle="button" aria-pressed="true">Shuffle</button>
+      </div>
+    </div>
+  </div>
+  <div class="py-3 col-sm-4">
+    <div class="card" id="red">
+		<img class="card-img-top" src="oracle/ruby-card.jpg" alt="ruby-card">
+      <div class="text-center card-body">
+        <h5 class="card-title">Heart</h5>
+        <p class="card-text">Shuffle the stack until you have asked your question aloud. Move on to the Home cards.</p>
+        <button onclick="middle()" id="middle-button" class="btn btn-danger" role="button" data-toggle="button" aria-pressed="true">Shuffle</button>
+      </div>
+    </div>
+  </div>
+  <div class="py-3 col-sm-4">
+    <div class="card" id="blue">
+		<img class="card-img-top" src="oracle/turquiose-card.jpg" alt="turqioise-card">
+      <div class="text-center card-body">
+        <h5 class="card-title">Home</h5>
+        <p class="card-text">Shuffle the stack and ask your question aloud. Click Take Me to My Reading.</p>
+        <button onclick="right()" id="right-button" class="btn btn-info" role="button" data-toggle="button" aria-pressed="true">Shuffle</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+	<p id="head"></p>
+</div>
+<div>
+	<p id="heart"></p>
+</div>	
+<div>
+	<p id="home"></p>
+</div>	
+
+<div>
+	<p class="lead text-center">
+        <a class="btn btn-outline-info btn-lg" href="#" id="button" role="button">Take Me to My Reading!</a>
+    </p>
+</div>
+	
+<div>
+	<p id="test"></p>
+</div>
+
+    <!-- ===========================================
+    FOOTER
+    ============================================== -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+            This is a Code Louisville project created by Chanel Brown. Tarot card images and meanings courtesy of <a href="">Labyrinthos</a>.
+            </p>
+
+            <p>
+            &copy; 2018
+            </p>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="js/generator.js"></script>
+</body>
+</html>
